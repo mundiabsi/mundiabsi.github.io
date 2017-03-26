@@ -37,12 +37,12 @@
   </h1>
 </center>
 
-<form method="POST" >
+<form  >
       <table >
       <tr> 
        <td>    
             <label for="Name"> Name:</label>
-            <input type="textarea"  name="name" ><br>
+            <input type="textarea"  name="name" required ><br>
             </td>
             </tr>
             <tr> 
@@ -54,13 +54,13 @@
         <tr> 
        <td>    
             <label for="Surname"> Surname:</label>
-            <input type="textarea"  name="name" ><br>
+            <input type="textarea"  name="name" required ><br>
             </td>
             </tr>
        <tr> 
        <td>    
             <label for="email"> E-mail:</label>
-            <input type="email" id="email" name="email" ><br>
+            <input type="email" id="email" name="email" required  ><br>
             </td>
             </tr>
       <tr>
@@ -69,12 +69,12 @@
             
           </label>
 
-          <input type="password" name="password" ><br>
+          <input type="password" name="password" required  ><br>
         </td>
       </tr>
             <tr>
             <td ><label for="birthday"> BirthDate:</label>
-            <input type="date" id="birthdate" name="birthdate" ><br>
+            <input type="date" id="birthdate" name="birthdate" required ><br>
             </td>
             </tr>
 
@@ -131,7 +131,7 @@
               </td>
             </tr>
             <tr><td><p>Select Your Picture</p>
-                      <input type="file" name="photo">
+                      <input type="file" name="photo" required >
                       </td></tr>
               
            
